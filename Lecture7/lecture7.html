@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .random-button {
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            font-size: 16px;
+        } 
+</style>
+<body>
+    <label for="colorSelect">Choose a color:</label>
+    <select id="colorSelect">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="random">Random</option>
+        <option value="reset">Reset</option>
+    </select>
+
+   <div class="button-container" id="buttonContainer"></div>
+
+   <script src="script.js"></script>
+</body>
+</html>
